@@ -1,0 +1,41 @@
+#classy{
+            background: rgb(187, 172, 172);
+            max-height: fit-content;
+            width: 80%;
+        }
+        .cute{
+            color: rgb(255, 255, 255);
+            background-color: rgb(143, 103, 143);
+            border: 3px solid;
+            border-radius: 20px;
+            border-color: black;
+            margin: 2%;
+            width: 50%;
+            font-size: 60px;
+            text-align: center;
+        }
+        .highlight{
+            color: darkslateblue;
+            background-color: burlywood;
+            margin: 2%;
+            width: 70%;
+            background: linear-gradient(120deg,rgb(165, 123, 123), rgb(167, 177, 185));
+            background-repeat: no-repeat;
+            min-width: 100vw;
+            min-height: 100vh;
+        }
+        .butn{
+            border: 2px solid black;
+            padding: 10px 15px;
+            font-weight: 900;
+            color: aliceblue;
+            text-decoration: none; 
+            display: inline-block;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px rgb(155, 143, 143);
+            background: linear-gradient(135deg,rgb(151, 85, 151), rgb(170, 94, 71), rgb(150, 61, 61))
+        }
+        .butn:hover{
+            transform: scale(0.9);
+            box-shadow: 5px 5px 10px gray;
+        }
